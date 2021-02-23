@@ -1,0 +1,62 @@
+/*Se importan las variables y los mixins*/
+@import "../abstract/_variables.scss";
+@import "../abstract/_mixins.scss";
+  
+ 
+ /*Le damos la distribucion flex-center-column dada desde mixim.scss*/
+  #carro{
+    @include flex-center-column();
+    
+    /* Se le da un padding, margenes arriba y abajo, y se le dan colores y tamaños asociados desde variables.scss*/
+      #carroI{
+        margin-top:size(md);
+        margin-bottom: size(md);
+        width: 70%;
+        background-color: color(blanco);
+        border:solid 1px color(negro);
+        padding:size(md);
+
+        /* Se alinea el centro, y no se rompen los textos. */
+        h2{
+          text-align: center;
+          word-break: break-all;
+          @include fuente-Libre();
+        }
+
+        /*Se le da un tamaño al boton, se le da la opción de que el puntero lo seleccione, y unos colores y tamaños de variables.scss*/
+        button{
+          width: 120px;
+          margin-top: size(xxxs);
+          background-color:color(negro) ;
+          color: color(blanco);
+          border-radius: 10px;
+          cursor: pointer;
+          @include fuente-Reboto();
+        }
+        /*Se le da un fondo, un padding y un margin hacia abajo y unos tamaños y colores desde variables.scss */
+        .carro{
+          background: color(fondo);
+          margin-bottom: size(xxxs);
+          padding: size(sm);
+          border:solid 1px color(negro);
+          word-break: break-all;
+          @include fuente-Reboto();
+
+          /*Se le asocia un tamaño a la imagen. */
+          img{
+            width: 50px;
+            height: 50px;
+          }
+
+          /*Se incluye la función flex-column del mixin y se alinean al final los componentes de dentro.*/
+          .car1 {
+            @include flex-column();
+            align-items: flex-end;
+          }
+          /*Se incluye la función flex-row del mixin*/
+          .carrod1{
+            @include flex-row();
+          }
+        }
+    }
+  }
