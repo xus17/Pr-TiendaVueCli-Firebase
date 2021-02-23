@@ -1,4 +1,4 @@
-# tienda-pr
+# Proyecto Tienda Vue Cli Firebase
 
 
 Proyecto en el que vamos a utilizar una combinación de Firebase, Vue-Cli y SASS para realizar el proyecto de una tienda online.
