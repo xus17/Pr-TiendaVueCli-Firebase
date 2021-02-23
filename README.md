@@ -3,8 +3,9 @@
 
 Proyecto en el que vamos a utilizar una combinación de Firebase, Vue-Cli y SASS para realizar el proyecto de una tienda online.
 
-Link en producción: https://proyecto-tienda-97e89.firebaseapp.com/#/
-Link Github: https://github.com/xus17/Pr-TiendaVueCli-Firebase
+<p>Link en producción: https://proyecto-tienda-97e89.firebaseapp.com/#/</p>
+
+<p>Link Github: https://github.com/xus17/Pr-TiendaVueCli-Firebase</p>
 
 ## Project setup
 ```
