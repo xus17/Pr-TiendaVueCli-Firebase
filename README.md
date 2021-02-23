@@ -25,7 +25,7 @@ npm run build
 ### Lints and fixes files
 ```
 npm run lint
-
+```
 ## Lenguajes Utilizados
 - Jquery
 - CSS/FlexBox
